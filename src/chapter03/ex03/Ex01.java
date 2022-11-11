@@ -33,8 +33,7 @@ public class Ex01 {
 		
 		//참조 자료형의 값비교 : aName.equals(bName) (Heap 영역의 값비교) 
 		System.out.println("두 이름이 같으면 true, 다르면 false : " + aName.equals(bName));
-		
-			
+					
 
 	}
 

@@ -56,9 +56,7 @@ public class Ex02 {
 
 		}
 		
-		
-		
-		
+				
 		System.out.println("====for 문을 사용해서 내용 출력 =====");
 			for (int i = 0 ; i < arr1.length; i++) {
 				for (int j = 0 ; j < arr1[i].length; j++) {

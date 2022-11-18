@@ -26,12 +26,15 @@ args :  홍길동 70 88 77 99 이순신 80 68 87 79 김똘똘 60 86 87 30 홍길
 	
 		System.out.println("=== STEP 1 : args 배열로 들어오는 모든 내용 출력 ====");
 		for (int i = 0 ; i < args.length; i++) {
-		System.out.print(args[i] + " ");
+			System.out.print(args[i] + " ");
 		}
 		System.out.println();
 		System.out.println();
 
 
+		
+		
+		
 		//step 2
 		System.out.println("=====STEP 2  : 기본 출력 ========================");
 		System.out.println();
@@ -41,9 +44,9 @@ args :  홍길동 70 88 77 99 이순신 80 68 87 79 김똘똘 60 86 87 30 홍길
 		for (int i = 0 ; i < args.length; i++) {
 
 		if (i % 5 == 0 ) { //5로 나누었을때 0일때 개행 , 0일때는 제외
-		if (i != 0) {
-		System.out.println();
-		}
+			if (i != 0) {
+				System.out.println();
+			}
 		}
 
 		System.out.print(args[i] + "\t");
@@ -88,27 +91,27 @@ args :  홍길동 70 88 77 99 이순신 80 68 87 79 김똘똘 60 86 87 30 홍길
 		for (int i = 0 ; i < args.length; i++) {
 
 		if (i % 5 == 0 ) { //5로 나누었을때 0일때 개행 , 0일때는 제외
-		if (i != 0) {
-		System.out.println();
-		}
+			if (i != 0) {
+				System.out.println();
+			}
 		}
 
 		//sum1, avg1
 		if (i % 5 == 0) {
-		sum1 = 0 ;
+			sum1 = 0 ;
 		}
 		if (i % 5 != 0) {
-		sum1 += Integer.parseInt(args[i]);
+			sum1 += Integer.parseInt(args[i]);
 		}
 		//avg1 : 합이 모두 구해지면 평균 계산
 		if (i == 4 || i == 9 || i == 14 || i ==19) {
-		avg1 = sum1 / 4.0;
+			avg1 = sum1 / 4.0;
 		}
 
 		//출력
 		System.out.print(args[i] + "\t");
 		if (i == 4 || i == 9 || i == 14 || i ==19) {
-		System.out.print(sum1  + "\t" + avg1);
+			System.out.print(sum1  + "\t" + avg1);
 		}
 
 		//마지막 라인에 라인 삽입

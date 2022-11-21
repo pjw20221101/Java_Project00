@@ -51,7 +51,7 @@ public class Ex02 {
 	// addArray(int[] a, int[] b) {		
 	// }
 	public static void arraySum (int[] a, int[] b) {
-		int [] c = new int [75]; 
+		int [] c = new int [75];          //c : 두 배열을 인풋 받고 같은 방번호일때 값을 더해서 넣는 
 		for (int i = 0 ; i < a.length; i++) {
 			for (int j = 0; j < b.length; j++) {
 				if ( i > 59  ) {                            //i > 59 이상일때 

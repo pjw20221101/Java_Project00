@@ -16,7 +16,7 @@ public class TryWithResource02 {
 	
 		//1. 자동으로 객체를 제거하는 예제
 		    // (Resource : 객체를 선언 )   <== 객체를 자동으로 close() 하게 된다. 
-			// InputStreamReader 는 AutoClosable 인터페이스를 구현하고 있다. 
+			// InputStreamReader 는 AutoCloseable 인터페이스를 구현하고 있다. 
 		
 		System.out.println("한글자를 입력 하세요 >>>");
 		try (InputStreamReader ir1 = new InputStreamReader(System.in);){

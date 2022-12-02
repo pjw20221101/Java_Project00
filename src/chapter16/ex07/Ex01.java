@@ -112,6 +112,7 @@ public class Ex01 {
 		
 	//1-1. 제너릭 클래스에 저장 확인 및 print() 메소드 호출 
 		GenericClass<Apple> g1 = new GenericClass<>(); 
+		g1.setT(a1);
 		g1.getT().print();
 		
 		System.out.println("============================");
@@ -122,6 +123,7 @@ public class Ex01 {
 		
 	//2-1. 제너릭 클래스에 저장 확인 및 print() 메소드 출력
 		GenericClass <Banana> g2 = new GenericClass<>(); 
+		g2.setT(b1);
 		g2.getT().print();
 		
 		System.out.println("=============================");
@@ -132,7 +134,7 @@ public class Ex01 {
 		p1.print();
 		
 	//3-1. 제너릭에 저장안됨을 확인 ,, Pencil을 저장시 오류남. 
-	//	GenericClass<Pencil> g3 = new GenericClass<>();
+//	GenericClass<Pencil> g3 = new GenericClass<>();
 		
 	}
 

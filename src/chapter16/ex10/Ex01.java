@@ -36,7 +36,6 @@ class GenericMethod {
 		
 		return width * height; 
 	}
-	
 }
 
 public class Ex01 {
@@ -51,7 +50,7 @@ public class Ex01 {
 		double rect = GenericMethod.makeRectangle(p1, p2);
 		
 		System.out.println("두 좌표의 넓이는 : " + rect + " 입니다.");
-
+		
 	}
 
 }

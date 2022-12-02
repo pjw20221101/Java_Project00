@@ -9,8 +9,7 @@ class A {
 	//	System.out.println(t.length());   // length() : String 클래스의 메소드 
 		
 		System.out.println(t.equals("안녕"));   //equals() : Object 클래스의 메소드 
-		
-		
+			
 	}
 }
 
